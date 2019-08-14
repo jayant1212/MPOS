@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="fb.mpos.testcases.TC217" />
+			<class name="fb.mpos.testcases.TC497" />
+			<class name="fb.mpos.testcases.TC686" />
+			<class name="fb.mpos.testcases.TC687" />
+			<class name="fb.mpos.testcases.TC691" />
+			<class name="fb.mpos.testcases.TC703" />
+			<class name="fb.mpos.testcases.TC381_PartialPayment" />
+			<class name="fb.mpos.testcases.TC381" />
+			<class name="fb.mpos.testcases.TC221" />
+			<class name="fb.mpos.testcases.TC219" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+

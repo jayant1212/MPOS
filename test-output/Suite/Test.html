@@ -1,0 +1,220 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 16 15:36:37 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>630 seconds (630848 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='fb.mpos.testcases.TC217.tc217()'><b>tc217</b><br>Test class: fb.mpos.testcases.TC217<br>Test method: Login<br>Parameters: 000163, 1234<br/>
+<a href="#Output-871790326" onClick='toggleBox("Output-871790326", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-871790326" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-871790326">
+Successfully logged into MPOS application<br/>
+Waste item details are displayed<br/>
+Spoiled Data saved successfully<br/>
+Successfully logged out from MPOS application<br/>
+</div>
+</td>
+<td></td>
+<td>56</td>
+<td>fb.mpos.testcases.TC217@3e92efc3</td></tr>
+<tr>
+<td title='fb.mpos.testcases.TC219.tc219()'><b>tc219</b><br>Test class: fb.mpos.testcases.TC219<br>Test method: Login<br>Parameters: 000163, 1234<br/>
+<a href="#Output-1955990522" onClick='toggleBox("Output-1955990522", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1955990522" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1955990522">
+Successfully logged into MPOS application<br/>
+Start ammount is declared successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>fb.mpos.testcases.TC219@1622f1b</td></tr>
+<tr>
+<td title='fb.mpos.testcases.TC221.tc221()'><b>tc221</b><br>Test class: fb.mpos.testcases.TC221<br>Test method: Login<br>Parameters: 000163, 1234<br/>
+<a href="#Output-1936502650" onClick='toggleBox("Output-1936502650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1936502650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1936502650">
+Successfully logged into MPOS application<br/>
+Product selling to customer receipt is generated.<br/>
+Successfully logged out from MPOS application<br/>
+</div>
+</td>
+<td></td>
+<td>88</td>
+<td>fb.mpos.testcases.TC221@3c130745</td></tr>
+<tr>
+<td title='fb.mpos.testcases.TC381_PartialPayment.tc381()'><b>tc381</b><br>Test class: fb.mpos.testcases.TC381_PartialPayment<br>Test method: Login<br>Parameters: 000163, 1234<br/>
+<a href="#Output-2067925017" onClick='toggleBox("Output-2067925017", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2067925017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2067925017">
+Successfully logged into MPOS application<br/>
+Sales Transaction is successfully done with card payment and receipt is generated.<br/>
+Successfully logged out from MPOS application<br/>
+</div>
+</td>
+<td></td>
+<td>105</td>
+<td>fb.mpos.testcases.TC381_PartialPayment@61230f6a</td></tr>
+<tr>
+<td title='fb.mpos.testcases.TC381.tc381()'><b>tc381</b><br>Test class: fb.mpos.testcases.TC381<br>Test method: Login<br>Parameters: 000163, 1234<br/>
+<a href="#Output-948250363" onClick='toggleBox("Output-948250363", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-948250363" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-948250363">
+Successfully logged into MPOS application<br/>
+Sales Transaction is successfully done with cash+card payment and receipt is generated.<br/>
+Successfully logged out from MPOS application<br/>
+</div>
+</td>
+<td></td>
+<td>105</td>
+<td>fb.mpos.testcases.TC381@72a7c7e0</td></tr>
+<tr>
+<td title='fb.mpos.testcases.TC497.tc497()'><b>tc497</b><br>Test class: fb.mpos.testcases.TC497<br>Test method: Login<br>Parameters: 000163, 1234<br/>
+<a href="#Output-1601687801" onClick='toggleBox("Output-1601687801", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1601687801" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1601687801">
+Successfully logged into MPOS application<br/>
+Train data is available<br/>
+Successfully logged out from MPOS application<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>fb.mpos.testcases.TC497@63021689</td></tr>
+<tr>
+<td title='fb.mpos.testcases.TC686.tc686()'><b>tc686</b><br>Test class: fb.mpos.testcases.TC686<br>Test method: Login<br>Parameters: 000163, 1234<br/>
+<a href="#Output-1801942731" onClick='toggleBox("Output-1801942731", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1801942731" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1801942731">
+Successfully logged into MPOS application<br/>
+FreshFoodOrders button is present<br/>
+Successfully logged out from MPOS application<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>fb.mpos.testcases.TC686@3e2e18f2</td></tr>
+<tr>
+<td title='fb.mpos.testcases.TC687.tc687()'><b>tc687</b><br>Test class: fb.mpos.testcases.TC687<br>Test method: Login<br>Parameters: 000163, 1234<br/>
+<a href="#Output-1333041165" onClick='toggleBox("Output-1333041165", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1333041165" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1333041165">
+Successfully logged into MPOS application<br/>
+FreshFoodOrders button is present<br/>
+FreshFoodOrders created successfully<br/>
+Successfully logged out from MPOS application<br/>
+</div>
+</td>
+<td></td>
+<td>62</td>
+<td>fb.mpos.testcases.TC687@cd3fee8</td></tr>
+<tr>
+<td title='fb.mpos.testcases.TC691.tc691()'><b>tc691</b><br>Test class: fb.mpos.testcases.TC691<br>Test method: Login<br>Parameters: 000163, 1234<br/>
+<a href="#Output-1581078471" onClick='toggleBox("Output-1581078471", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1581078471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1581078471">
+Successfully logged into MPOS application<br/>
+Product has been return successfully<br/>
+Successfully logged out from MPOS application<br/>
+</div>
+</td>
+<td></td>
+<td>81</td>
+<td>fb.mpos.testcases.TC691@1d119efb</td></tr>
+<tr>
+<td title='fb.mpos.testcases.TC703.tc703()'><b>tc703</b><br>Test class: fb.mpos.testcases.TC703<br>Test method: Login<br>Parameters: 000163, 1234<br/>
+<a href="#Output-189207010" onClick='toggleBox("Output-189207010", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-189207010" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-189207010">
+Successfully logged into MPOS application<br/>
+Product price is verified<br/>
+Successfully logged out from MPOS application<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>fb.mpos.testcases.TC703@703580bf</td></tr>
+</table><p>
+</body>
+</html>
